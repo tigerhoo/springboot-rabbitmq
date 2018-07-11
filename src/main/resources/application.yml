@@ -1,0 +1,25 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /rabbitmq
+
+
+
+spring:
+  rabbitmq:
+    ##  RabbitMQ的提供者配置
+    producer:
+      addresses: 10.198.1.109
+      userName: rabbitmq-product
+      password: 123456
+      publisher-confirms: true
+      virtual-host: demo
+    ##  RabbitMQ的消费者配置
+    consumer:
+          addresses: 10.198.1.109
+          userName: rabbitmq-consumer
+          password: 123456
+          publisher-confirms: true
+          virtual-host: /
+
+
