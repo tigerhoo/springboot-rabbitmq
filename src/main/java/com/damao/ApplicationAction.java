@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 /**
  * @author huyongxing
- * @email huyongxing@qihaiyun.com
+ * @site www.skson.com
  * @date 2018/7/11 15:22
  */
 @ComponentScan(basePackages = "com")
